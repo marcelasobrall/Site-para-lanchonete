@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style/reset.css">
+        <link rel="stylesheet" href="style/padrao.css">
+        <link rel="stylesheet" href="style/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="esquerda col-1 fl">
+                <img class="col-12" src="imagens/logo.jpg">
+            </div>
+            <div class="direita col-11 fl centraliza">
+                <nav>
+                    <ul>
+                        <a href="sanduiches.html"><li>Sanduiches</li></a>
+                        <a href="bebidas.html"><li>Bebidas</li></a>
+                        <a href="contato.html"><li>Contato</li></a>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="normal"></div>
+        <main>
+            <section class=" meio_1">
+                <h1 class="centraliza">Contato</h1>
+            </section>
+            <div class="normal"></div>
+
+            <section class="meio_2 cor_form centraliza">
+                <form action="vendas.html" method="get"></form>
+                <h1 class="texto_form">Digite seu nome <span class="destaque">*</span></h1>
+                <input class="estilo" name="a" placeholder="Nome completo" type="text" required><br>
+                <h1 class="texto_form">Digite seu email</h1>
+                <input class="estilo" name="b" placeholder="Utilize seu email principal" type="email"><br>
+                <h1 class="texto_form">Digite sua senha</h1>
+                <input class="estilo" name="c" placeholder="Digite a senha" type="password"><br>
+             
+                <br>
+                <select class="estilo" name="e" required>
+                    <option>Escolha a quantidade de sanduiches</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>    
+                </select>
+                <br>
+
+                <input type="radio" name="quantidade" value="1"> 1 sanduiche<br>
+                <input type="radio" name="quantidade" value="2"> 2 sanduiches<br>
+                <input type="radio" name="quantidade" value="3"> 3 sanduiches<br>
+                <input type="radio" name="quantidade" value="4"> 4 sanduiches<br>
+                <input type="radio" name="quantidade" value="5"> 5 sanduiches<br>
+                
+                <h1 class="texto_form">Digite o nome dos sanduiches</h1>
+                <textarea class="estilo" name="d" rows="5" cols="30"></textarea><br><br><br>
+    
+                <select class="estilo" name="f" required>
+                    <option>Escolha a quantidade de bebidas</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>Nenhuma</option>
+                </select>
+                <br>
+                <input type="radio" name="quantidade" value="1"> 1 bebida<br>
+                <input type="radio" name="quantidade" value="2"> 2 bebidas<br>
+                <input type="radio" name="quantidade" value="3"> 3 bebidas<br>
+                <input type="radio" name="quantidade" value="4"> 4 bebidas<br>
+                <input type="radio" name="quantidade" value="5"> 5 bebidas<br>
+                <input type="radio" name="quantidade" value="Nenhuma"> Nenhuma bebida<br>
+    
+                <h1 class="texto_form">Digite o nome das bebidas</h1>
+                <textarea class="estilo" name="d" rows="5" cols="30"></textarea><br><br><br>
+                
+                <a href="vendas.html"><input class="estilo" type="submit" value="Enviar Pedido"></a>
+            </form>
+            </section>
+        </main>
+        <footer>
+            <h1>Endereço: Rua Humaitá-número 50, Belo Horizonte
+                Telefone: 3822-1987
+                Instagram/Facebook: Adriano_Lanches</h1>
+        </footer>
+    </body>
+</html>
